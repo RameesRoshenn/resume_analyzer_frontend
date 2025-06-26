@@ -21,7 +21,7 @@ function App() {
     setError(null);
 
     try {
-      const response = await fetch('https://resume-analyzer-backend-u1gn.onrender.com/api/analyze', {
+      const response = await fetch('https://resume-analyzer-backend-x6pm.onrender.com/api/analyze', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
